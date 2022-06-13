@@ -9,34 +9,48 @@ public class PathSumIII {
 
     public int pathSum(TreeNode root, int targetSum) {
 
-        return pathSum(root , targetSum , targetSum);
-    }
-
-    protected int pathSum(TreeNode root , int targetSum , int originalTargetSum)
-    {
-
         if(root == null)
         {
             return 0 ;
         }
 
-        if(targetSum == root.val )
+        int rootSum = countPath(root , targetSum);
+        int leftChildSum = pathSum(root.left , targetSum);
+        int rightChildSum = pathSum(root.right , targetSum);
+
+        return rootSum +leftChildSum +rightChildSum ;
+    }
+
+    public int countPath(TreeNode root , int targetSum )
+    {
+        if(root == null)
         {
-            if(root.left == null && root.right == null)
-            {
-                return 1 ;
-            }
-            else
-            {
-                return 1 + pathSum(root.left , originalTargetSum - root.val) + pathSum(root.right, originalTargetSum - root.val);
-            }
+            return  0;
         }
-        else
+
+        if( root.val == targetSum)
         {
-            return pathSum(root.left , targetSum - root.val , originalTargetSum)
-                    + pathSum(root.right , targetSum - root.val , originalTargetSum)
-                    + pathSum(root.left , originalTargetSum - root.val , originalTargetSum)
-                    + pathSum(root.right , originalTargetSum - root.val , originalTargetSum);
+            return  1 + countPath(root.left , 0) + countPath(root.right , 0);
         }
+
+        return countPath(root.left , targetSum - root.val) + countPath(root.right , targetSum - root.val);
+
+    }
+
+
+    public  static void main(String args[])
+    {
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(-2);
+        root.right = new TreeNode(-3);
+        root.left.left = new TreeNode(1);
+        root.left.right = new TreeNode(3);
+        root.right.left = new TreeNode(-2);
+        root.right.right = null;
+        root.left.left.left = new TreeNode(-1);
+
+        PathSumIII pathSum = new PathSumIII();
+        System.out.println(pathSum.pathSum(root , -1) );
+
     }
 }
