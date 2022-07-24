@@ -1,0 +1,29 @@
+package round1.twopointers;
+
+import java.util.Arrays;
+
+/**
+ * https://leetcode.com/problems/assign-cookies/
+ */
+public class AssignCookies {
+    public int findContentChildren(int[] g, int[] s) {
+
+        Arrays.sort(g);
+        Arrays.sort(s);
+
+        int ans = 0 ;
+        int i = 0 , j = 0 ;
+        while(i < g.length && j < s.length){
+            if(s[j] >= g[i]){
+                ans ++ ;
+                j++;
+                i++;
+            }
+            else{
+                j++;
+            }
+        }
+
+        return ans ;
+    }
+}
