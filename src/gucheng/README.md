@@ -75,4 +75,7 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Min Stack (155)](https://leetcode.com/problems/min-stack/)
 - [Implement Queue using Stacks (232)](https://leetcode.com/problems/implement-queue-using-stacks/description/)
 - [Implement Stack using Queues (225)](https://leetcode.com/problems/implement-stack-using-queues/description/)
-- [Design Circular Queue (622)](https://leetcode.com/problems/design-circular-queue/description/)
+- [Design Circular Queue (622)](stackandqueue/MyCircularQueue.java)
+- [Design Circular Deque (641)](stackandqueue/DesignCircularDeque.java)
+- [ Design a Stack With Increment Operation (1381)](stackandqueue/DesignAStackWithIncrementOperation.java)
+- [Maximum Frequency Stack (895)](stackandqueue/MaximumFrequencyStack.java)
