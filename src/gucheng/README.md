@@ -78,4 +78,10 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Design Circular Queue (622)](stackandqueue/MyCircularQueue.java)
 - [Design Circular Deque (641)](stackandqueue/DesignCircularDeque.java)
 - [ Design a Stack With Increment Operation (1381)](stackandqueue/DesignAStackWithIncrementOperation.java)
-- [Maximum Frequency Stack (895)](stackandqueue/MaximumFrequencyStack.java)
+- [Maximum Frequency Stack (895)  still pending](stackandqueue/MaximumFrequencyStack.java)
+
+## Back tracking
+
+- [Permutations (46)](https://leetcode.com/problems/permutations/)
+- [ Permutations II (47)](https://leetcode.com/problems/permutations-ii/description/)
+- [Generate Parentheses (22)](https://leetcode.com/problems/generate-parentheses/)
