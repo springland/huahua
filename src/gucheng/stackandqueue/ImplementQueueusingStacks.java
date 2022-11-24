@@ -3,7 +3,7 @@ package gucheng.stackandqueue;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-//
+// https://leetcode.com/problems/implement-queue-using-stacks/description/
 public class ImplementQueueusingStacks {
 
     Deque<Integer> stack1 = new ArrayDeque<>();

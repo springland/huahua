@@ -37,7 +37,19 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - Longest Repeating Substring ( 1062)
 - First Bad version (278)
 
-
+## Sweep Line
+- [Number of Airplanes in the Sky ( lint code 391)](./sweepline/NumberofAirplanesintheSky.java) 
+- [Meeting Rooms (252)](sweepline/MeetingRooms.java) 
+- [Meeting Rooms II (253)](sweepline/MeetingRoomsII.java)
+- [ Insert Interval (57)](sweepline/InsertInterval.java)
+- [Remove Interval (1272)](sweepline/RemoveInterval.java) **Not Supported**
+- [Non-overlapping Interval (435)](sweepline/NonOverlappingInterval.java)
+- [Remove Covered Intervals (1288) ](sweepline/RemoveCoveredIntervals.java)
+- [Data Stream as Disjoint Intervals (352)](sweepline/DataStreamAsDisjointIntervals.java)
+- [Meeting Scheduler (1229)](sweepline/MeetingScheduler.java)
+- [Interval List Intersections (986)](sweepline/IntervalListIntersections.java)
+- [Employee Free Time (759)](sweepline/EmployeeFreeTime.java)  **Not supported**
+- [The Skyline Problem (218)](sweepline/SkylineProblem.java)  **Not implemented**
 ## Sliding Window
 
 - [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
@@ -63,7 +75,7 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Palindrome Linked List (234)](https://leetcode.com/problems/palindrome-linked-list/description/)
 - [ Intersection of Two Linked Lists (160)](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 - [Copy List with Random Pointer ( 138)](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
-- [Convert Binary Search Tree to Sorted Doubly Linked List(426)]
+- [Convert Binary Search Tree to Sorted Doubly Linked List(426)]  **Not Done**
 
 ## heap 
 
@@ -73,12 +85,12 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 ## Stack and Queue
 
 - [Min Stack (155)](https://leetcode.com/problems/min-stack/)
-- [Implement Queue using Stacks (232)](https://leetcode.com/problems/implement-queue-using-stacks/description/)
-- [Implement Stack using Queues (225)](https://leetcode.com/problems/implement-stack-using-queues/description/)
+- [Implement Queue using Stacks (232)](stackandqueue/ImplementQueueusingStacks.java)
+- [Implement Stack using Queues (225)](stackandqueue/ImplementStackUsingQueues.java)
 - [Design Circular Queue (622)](stackandqueue/MyCircularQueue.java)
 - [Design Circular Deque (641)](stackandqueue/DesignCircularDeque.java)
 - [ Design a Stack With Increment Operation (1381)](stackandqueue/DesignAStackWithIncrementOperation.java)
-- [Maximum Frequency Stack (895)  still pending](stackandqueue/MaximumFrequencyStack.java)
+- [Maximum Frequency Stack (895)  still pending](stackandqueue/MaximumFrequencyStack.java) 
 
 ## Back tracking
 

@@ -29,7 +29,7 @@ public class GenerateParentheses {
         {
             visited.add("()" + ans);
 
-            visited.add(ans + "()");
+
             visited.add("(" + ans + ")");
 
             int count = 0 ;
@@ -46,20 +46,20 @@ public class GenerateParentheses {
                 }
                 if(count == 0)
                 {
-                    String solution = null;
 
-                    solution = ans.substring(0 , beginIndex);
-                    solution += "(" + ans.substring(beginIndex , endIndex+1) + ")";
-                    if(endIndex < ans.length()-1)
-                    {
-                        solution += ans.substring(endIndex+1 , ans.length());
-                    }
-                    visited.add(solution);
+                    String left = ans.substring(0 , beginIndex);
+                    String middle = ans.substring(beginIndex , endIndex+1);
+                    String right =  endIndex < ans.length() -1 ? ans.substring( endIndex+1 , ans.length()) : "";
 
+                    visited.add(left + "()" + middle + right );
+                    visited.add(left + "(" + middle + ")"+ right );
                     beginIndex = endIndex+1;
                 }
                 endIndex++ ;
             }
+
+
+            visited.add(ans + "()");
 
 
         }
@@ -68,4 +68,7 @@ public class GenerateParentheses {
         return result ;
 
     }
+
+
 }
+
