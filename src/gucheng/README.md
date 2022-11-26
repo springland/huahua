@@ -1,5 +1,5 @@
 
-## Sorting
+### Sorting
 
 - Quick Sort
     
@@ -9,7 +9,7 @@
 - Counting Sort
 - Pancake sort
 
-## Binary Search
+### Binary Search
 - Basic
   - Exact match , find insert position
   - find first occurance 
@@ -37,26 +37,9 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - Longest Repeating Substring ( 1062)
 - First Bad version (278)
 
-## Sweep Line
-- [Number of Airplanes in the Sky ( lint code 391)](./sweepline/NumberofAirplanesintheSky.java) 
-- [Meeting Rooms (252)](sweepline/MeetingRooms.java) 
-- [Meeting Rooms II (253)](sweepline/MeetingRoomsII.java)
-- [ Insert Interval (57)](sweepline/InsertInterval.java)
-- [Remove Interval (1272)](sweepline/RemoveInterval.java) **Not Supported**
-- [Non-overlapping Interval (435)](sweepline/NonOverlappingInterval.java)
-- [Remove Covered Intervals (1288) ](sweepline/RemoveCoveredIntervals.java)
-- [Data Stream as Disjoint Intervals (352)](sweepline/DataStreamAsDisjointIntervals.java)
-- [Meeting Scheduler (1229)](sweepline/MeetingScheduler.java)
-- [Interval List Intersections (986)](sweepline/IntervalListIntersections.java)
-- [Employee Free Time (759)](sweepline/EmployeeFreeTime.java)  **Not supported**
-- [The Skyline Problem (218)](sweepline/SkylineProblem.java)  **Not implemented**
-## Sliding Window
-
-- [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
-- [Minimum Size SubArray Sum (209)](https://leetcode.com/problems/minimum-size-subarray-sum/)  Not done
 
 
-## Linked List
+### Linked List
 - [Reverse Linked List (206)](https://leetcode.com/problems/reverse-linked-list/description/)
 - [ Reverse Linked List II (92)](https://leetcode.com/problems/reverse-linked-list-ii/)
 - [ Add Two Numbers (2)](https://leetcode.com/problems/add-two-numbers/description/)
@@ -75,14 +58,14 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Palindrome Linked List (234)](https://leetcode.com/problems/palindrome-linked-list/description/)
 - [ Intersection of Two Linked Lists (160)](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 - [Copy List with Random Pointer ( 138)](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
-- [Convert Binary Search Tree to Sorted Doubly Linked List(426)]  **Not Done**
+- [Convert Binary Search Tree to Sorted Doubly Linked List(426)](linkedlist/ConvertBinarySearchTreetoSortedDoublyLinkedList.java)  **Not Done**
 
-## heap 
+### heap 
 
 - HeapSort
 - PriorityQueue
 
-## Stack and Queue
+### Stack and Queue
 
 - [Min Stack (155)](https://leetcode.com/problems/min-stack/)
 - [Implement Queue using Stacks (232)](stackandqueue/ImplementQueueusingStacks.java)
@@ -92,8 +75,32 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [ Design a Stack With Increment Operation (1381)](stackandqueue/DesignAStackWithIncrementOperation.java)
 - [Maximum Frequency Stack (895)  still pending](stackandqueue/MaximumFrequencyStack.java) 
 
-## Back tracking
+### Back tracking
 
 - [Permutations (46)](https://leetcode.com/problems/permutations/)
 - [ Permutations II (47)](https://leetcode.com/problems/permutations-ii/description/)
 - [Generate Parentheses (22)](https://leetcode.com/problems/generate-parentheses/)
+
+
+## Algorithms
+
+### Sweep Line
+- [Number of Airplanes in the Sky ( lint code 391)](./sweepline/NumberofAirplanesintheSky.java)
+- [Meeting Rooms (252)](sweepline/MeetingRooms.java)
+- [Meeting Rooms II (253)](sweepline/MeetingRoomsII.java)
+- [ Insert Interval (57)](sweepline/InsertInterval.java)
+- [Remove Interval (1272)](sweepline/RemoveInterval.java) **Not Supported**
+- [Non-overlapping Interval (435)](sweepline/NonOverlappingInterval.java)
+- [Remove Covered Intervals (1288) ](sweepline/RemoveCoveredIntervals.java)
+- [Data Stream as Disjoint Intervals (352)](sweepline/DataStreamAsDisjointIntervals.java)
+- [Meeting Scheduler (1229)](sweepline/MeetingScheduler.java)
+- [Interval List Intersections (986)](sweepline/IntervalListIntersections.java)
+- [Employee Free Time (759)](sweepline/EmployeeFreeTime.java)  
+- [The Skyline Problem (218)](sweepline/SkylineProblem.java)  
+
+### BFS
+- 
+## Sliding Window
+
+- [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
+- [Minimum Size SubArray Sum (209)](https://leetcode.com/problems/minimum-size-subarray-sum/)  Not done
