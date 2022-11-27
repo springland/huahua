@@ -30,7 +30,7 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Search in rotated Sorted Array ( 33)](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [Search in rotated Sorted Array II ( 81)](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 - [Find minimal in rotated Sorted Array (153)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- [Find minimal in rotated Sorted Array II ( 154)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)  Not done
+- [Find minimal in rotated Sorted Array II ( 154)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)  **Not done**
 - Search a 2D matrix (74)
 - Median of 4 Sorted Arrays ( 4)
 - Random Pick with weight ( 528)
@@ -58,7 +58,7 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Palindrome Linked List (234)](https://leetcode.com/problems/palindrome-linked-list/description/)
 - [ Intersection of Two Linked Lists (160)](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 - [Copy List with Random Pointer ( 138)](https://leetcode.com/problems/copy-list-with-random-pointer/description/)
-- [Convert Binary Search Tree to Sorted Doubly Linked List(426)](linkedlist/ConvertBinarySearchTreetoSortedDoublyLinkedList.java)  **Not Done**
+- [Convert Binary Search Tree to Sorted Doubly Linked List(426)](linkedlist/ConvertBinarySearchTreetoSortedDoublyLinkedList.java)
 
 ### heap 
 
@@ -89,7 +89,7 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Meeting Rooms (252)](sweepline/MeetingRooms.java)
 - [Meeting Rooms II (253)](sweepline/MeetingRoomsII.java)
 - [ Insert Interval (57)](sweepline/InsertInterval.java)
-- [Remove Interval (1272)](sweepline/RemoveInterval.java) **Not Supported**
+- [Remove Interval (1272)](sweepline/RemoveInterval.java) 
 - [Non-overlapping Interval (435)](sweepline/NonOverlappingInterval.java)
 - [Remove Covered Intervals (1288) ](sweepline/RemoveCoveredIntervals.java)
 - [Data Stream as Disjoint Intervals (352)](sweepline/DataStreamAsDisjointIntervals.java)
@@ -99,8 +99,13 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [The Skyline Problem (218)](sweepline/SkylineProblem.java)  
 
 ### BFS
-- 
+- [Binary Tree Level Order Traversal (102)](bfs/BinaryTreeLevelOrderTraversal.java)
+- [ Minimum Depth of Binary Tree (111)](bfs/MinimumDepthofBinaryTree.java)
+- [Word Ladder (127)](bfs/WordLadder.java)
+- [Open the Lock (752)](bfs/OpenTheLock.java) **Not Done**
+- [Course Schedule (207)](bfs/CourseSchedule.java)
+- [Course Schedule II (210)](bfs/CourseScheduleII.java)
 ## Sliding Window
 
 - [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
-- [Minimum Size SubArray Sum (209)](https://leetcode.com/problems/minimum-size-subarray-sum/)  Not done
+- [Minimum Size SubArray Sum (209)](https://leetcode.com/problems/minimum-size-subarray-sum/)  **Not done**
