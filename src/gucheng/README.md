@@ -102,9 +102,11 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Binary Tree Level Order Traversal (102)](bfs/BinaryTreeLevelOrderTraversal.java)
 - [ Minimum Depth of Binary Tree (111)](bfs/MinimumDepthofBinaryTree.java)
 - [Word Ladder (127)](bfs/WordLadder.java)
-- [Open the Lock (752)](bfs/OpenTheLock.java) **Not Done**
+- [Open the Lock (752)](bfs/OpenTheLock.java) 
 - [Course Schedule (207)](bfs/CourseSchedule.java)
 - [Course Schedule II (210)](bfs/CourseScheduleII.java)
+- [The maze(490)](bfs/TheMaze.java)
+- [The maze II (505)](bfs/TheMazeII.java)
 ## Sliding Window
 
 - [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
