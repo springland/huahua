@@ -107,6 +107,15 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Course Schedule II (210)](bfs/CourseScheduleII.java)
 - [The maze(490)](bfs/TheMaze.java)
 - [The maze II (505)](bfs/TheMazeII.java)
+
+### DFS
+- [Subsets (78)](dfs/Subsets.java)
+- [Binary Tree Inorder traversal (94)](dfs/BinaryTreeInOrderTraversal.java)
+- [Subsets II (90)](dfs/SubsetsII.java)
+- [Permutations (46) ](dfs/Permutations.java)
+- [Permutations II (47)](dfs/PermutationII.java)
+- [Combinations (77)](dfs/Combinations.java)
+- [Sudoku Solver(37)](dfs/SudokuSolver.java)
 ## Sliding Window
 
 - [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
