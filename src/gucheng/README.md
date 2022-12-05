@@ -119,7 +119,7 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Binary Tree Preorder Traversal (144) ](dfs/BinaryTreePreorderTraversal.java)
 - [Binary Tree Inorder traversal (94)](dfs/BinaryTreeInOrderTraversal.java)
 - [Find Minimum Time to Finish All Jobs (1723)](dfs/FindMinimumTimetoFinishAllJobs.java)
-- [Minimum Number of Work Sessions to Finish the Tasks (1986)]
+- [Minimum Number of Work Sessions to Finish the Tasks (1986)](dfs/MinimumNumberofWorkSessionstoFinishtheTasks.java)
  
 ### Binary Search
 - [Median of Two Sorted Arrays (4)](binary/MedianofTwoSortedArrays.java)
@@ -130,6 +130,7 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 ### Divide and Conquer
 -[Merge K Sorted List (23)](divideandconquer/MergeKSortedList.java)
 -[Kth Largest Element in an Array (215)](divideandconquer/KthLargestElementinanArray.java)
+- [ Major elements (169)](divideandconquer/MajorElements.java)
 ## Sliding Window
 
 - [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
