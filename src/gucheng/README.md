@@ -128,9 +128,13 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 
 
 ### Divide and Conquer
--[Merge K Sorted List (23)](divideandconquer/MergeKSortedList.java)
--[Kth Largest Element in an Array (215)](divideandconquer/KthLargestElementinanArray.java)
+- [Merge K Sorted List (23)](divideandconquer/MergeKSortedList.java)
+- [Kth Largest Element in an Array (215)](divideandconquer/KthLargestElementinanArray.java)
 - [ Major elements (169)](divideandconquer/MajorElements.java)
+- [Pow(x, n) (50)](divideandconquer/PowN.java)
+- [ Inversion Count](divideandconquer/InversionCount.java) 
+- [K Closed Points to Origin (973)](divideandconquer/KClosestPointstoOrigin.java)
+- [Odd Even Linked List (328)](divideandconquer/OddEvenLinkedList.java)
 ## Sliding Window
 
 - [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
