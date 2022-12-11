@@ -82,6 +82,10 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Generate Parentheses (22)](https://leetcode.com/problems/generate-parentheses/)
 
 
+### Tree
+- [Leaf-Similar Trees (872)](tree/LeafSimilarTrees.java)
+- [Maximum Difference Between Node and Ancestor (1026)]
+
 ## Algorithms
 
 ### Sweep Line
@@ -135,6 +139,17 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [ Inversion Count](divideandconquer/InversionCount.java) 
 - [K Closed Points to Origin (973)](divideandconquer/KClosestPointstoOrigin.java)
 - [Odd Even Linked List (328)](divideandconquer/OddEvenLinkedList.java)
+
+### Monotonic Stack
+- [Next Greater Element I (496)](monotonicstack/NextGreaterElementI.java)
+- [Next Greater Element II (503)](monotonicstack/NextGreaterElementII.java)
+- [Next Greater Element III (556)](monotonicstack/NextGreaterElementIII.java) 
+- [Next Greater Node In Linked List (1019)](monotonicstack/NextGreaterNodeInLinkedList.java)
+- [Daily Temperatures (739)](monotonicstack/DailyTemperatures.java)
+- [Remove Duplicate Letters (316)  , Smallest Subsequence of Distinct Characters (1081)](monotonicstack/RemoveDuplicateLetters.java) 
+- [Remove K Digits (402)](monotonicstack/RemoveKDigits.java)
+- [Trapping Rain Water (42)]
+- [Largest Rectangle in Histogram (84)]
 ## Sliding Window
 
 - [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
