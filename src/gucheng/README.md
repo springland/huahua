@@ -148,9 +148,18 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Daily Temperatures (739)](monotonicstack/DailyTemperatures.java)
 - [Remove Duplicate Letters (316)  , Smallest Subsequence of Distinct Characters (1081)](monotonicstack/RemoveDuplicateLetters.java) 
 - [Remove K Digits (402)](monotonicstack/RemoveKDigits.java)
-- [Trapping Rain Water (42)]
-- [Largest Rectangle in Histogram (84)]
+- [Trapping Rain Water (42)](monotonicstack/TrappingRainWater.java)
+- [Largest Rectangle in Histogram (84)](monotonicstack/LargestRectangleinHistogram.java)
+- 
+### Monotonic Queue
+- [Sliding Window Maximum 239](monotonicqueue/SlidingWindowMaximum.java)
+- [Shortest Subarray with Sum at Least K (862)](monotonicqueue/ShortestSubarraywithSumatLeastK.java)
+
 ## Sliding Window
 
 - [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
 - [Minimum Size SubArray Sum (209)](https://leetcode.com/problems/minimum-size-subarray-sum/)  **Not done**
+
+## DP
+[ House Robber (198)](dp/HouseRobber.java)
+[ Climb Stairs (70)](dp/ClimbingStairs.java)

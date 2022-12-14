@@ -8,7 +8,8 @@ public class TrappingRainWater {
     public int trap(int[] height) {
 
         //return solution1(height);
-        return solution2(height);
+        //return solution2(height);
+        return solution2Enhanced(height);
     }
 
     public int solution1(int[] height) {
@@ -126,10 +127,33 @@ public class TrappingRainWater {
     }
 
 
+    public int solution2Enhanced(int[] height){
+        Stack<Integer>  stack = new Stack<>();
 
-    public static void main(String args[] ){
+        int size = 0;
+        for(int rightIndex = 0; rightIndex < height.length ; rightIndex++  ){
+
+            while(!stack.isEmpty() && height[rightIndex] > height[stack.peek()]){
+
+                int bottomIndex = stack.pop();  // bottom
+                if(stack.isEmpty()) break;
+                int leftIndex = stack.peek();
+                int minHeight = Math.min(height[leftIndex] , height[rightIndex]);
+                int width = rightIndex - leftIndex -1 ; // exclude leftIndex and rightIndex
+                size +=  (minHeight - height[bottomIndex]) * width ;
+            }
+
+            stack.push(rightIndex);
+        }
+        return size ;
+
+    }
+
+
+        public static void main(String args[] ){
         int[] height = new int[] {0,1,0,2,1,0,1,3,2,1,2,1};
 
+        height = new int[] { 1 , 2 , 3};
         TrappingRainWater trap = new TrappingRainWater();
         System.out.println(trap.trap(height));
 
@@ -148,5 +172,7 @@ public class TrappingRainWater {
 
         height = new int[] {5,2,3};
         System.out.println(trap.trap(height));
+
+        height = new int[] { 1 , 2 , 3};
     }
 }
