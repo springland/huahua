@@ -2,7 +2,7 @@ package gucheng.monotonicqueue;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Queue;
+
 
 // https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
 public class ShortestSubarraywithSumatLeastK {
@@ -16,36 +16,26 @@ public class ShortestSubarraywithSumatLeastK {
     public int queue(int[] nums, int k){
         int ans = Integer.MAX_VALUE ;
 
-        Deque<Integer> queue = new LinkedList<>();
+        // get prefix
+        long[] sum = new long[nums.length+1];
 
-        // Need to take care of that negative number to {84,-37,32,40,95}
-
-
-        int total = 0 ;
         for(int index = 0 ; index < nums.length ; index++){
-
-            while(!queue.isEmpty() && total >= k){
-
-                if(queue.size() < ans ){
-                    ans = queue.size();
-                }
-                total -= queue.pollFirst();
-            }
-
-            total += nums[index];
-            queue.offerLast(nums[index]);
-
+            sum[index+1] = nums[index] + sum[index];
         }
 
-        while(!queue.isEmpty() ){
+        Deque<Integer>  queue = new LinkedList<>();
 
+        for(int index = 0 ; index < sum.length ; index++){
 
-            if(queue.size() < ans  &&  total >= k){
-                ans = queue.size();
+            while(!queue.isEmpty() && sum[index] - sum[queue.peekFirst()] >= k){
+                ans = Math.min(ans , index - queue.peekFirst() );
+                queue.pollFirst();
             }
-            total -= queue.poll();
+            while(!queue.isEmpty() && sum[queue.peekLast()] > sum[index]){
+                queue.pollLast();
+            }
+            queue.offerLast(index);
         }
-
 
         return ans == Integer.MAX_VALUE ? -1 : ans ;
 
@@ -76,10 +66,10 @@ public class ShortestSubarraywithSumatLeastK {
         ShortestSubarraywithSumatLeastK shortestSubarraywithSumatLeastK = new ShortestSubarraywithSumatLeastK();
 
         nums = new int[] {1};
-//        System.out.println(shortestSubarraywithSumatLeastK.shortestSubarray(nums , 1));
+       System.out.println(shortestSubarraywithSumatLeastK.shortestSubarray(nums , 1));
 
         nums = new int[] {84,-37,32,40,95};
-    //    System.out.println(shortestSubarraywithSumatLeastK.shortestSubarray(nums , 167));
+        System.out.println(shortestSubarraywithSumatLeastK.shortestSubarray(nums , 167));
 
         nums = new int[] {-28,81,-20,28,-29};
         System.out.println(shortestSubarraywithSumatLeastK.shortestSubarray(nums , 89));

@@ -154,6 +154,9 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 ### Monotonic Queue
 - [Sliding Window Maximum 239](monotonicqueue/SlidingWindowMaximum.java)
 - [Shortest Subarray with Sum at Least K (862)](monotonicqueue/ShortestSubarraywithSumatLeastK.java)
+- [Constrained Subsequence Sum   (1425)](monotonicqueue/ConstrainedSubsequenceSum.java)
+- [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit (1438)](monotonicqueue/LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.java)
+- [Jump Game VI (1696)]
 
 ## Sliding Window
 
