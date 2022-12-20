@@ -156,9 +156,20 @@ https://turingplanet.org/2020/09/18/leetcode_planning_list/#Binary_Search
 - [Shortest Subarray with Sum at Least K (862)](monotonicqueue/ShortestSubarraywithSumatLeastK.java)
 - [Constrained Subsequence Sum   (1425)](monotonicqueue/ConstrainedSubsequenceSum.java)
 - [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit (1438)](monotonicqueue/LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.java)
-- [Jump Game VI (1696)]
+- [Jump Game VI (1696)](monotonicqueue/JumpGameVI.java)
 
 ## Sliding Window
+- [Longest Substring Without Repeating Characters (3)](slidingwindow/LongestSubstringWithoutRepeatingCharacters.java)
+- [Longest Substring with At Most Two Distinct Characters (159)](slidingwindow/LongestSubstringwithAtMostTwoDistinctCharacters.java)
+- [Longest Substring with At Most K Distinct Characters (340)](slidingwindow/LongestSubstringwithAtMostKDistinctCharacters.java)
+- [Longest Substring with At Least K Repeating Characters (395)] 
+- [Longest Repeating Character Replacement (424)](slidingwindow/LongestRepeatingCharacterReplacement.java)
+- [Minimum Size Subarray Sum (209)](slidingwindow/MinimumSizeSubarraySum.java)
+- [Minimum Window Substring (76)](slidingwindow/MinimumWindowSubstring2.java)
+- [Subarrays with K Different Integers (992)](slidingwindow/SubarrayswithKDifferentIntegers.java)
+- [Count Number of Nice Subarrays (1248)](slidingwindow/CountNumberofNiceSubarrays.java)
+
+
 
 - [Minimum Window Substring 76](https://leetcode.com/problems/minimum-window-substring/)
 - [Minimum Size SubArray Sum (209)](https://leetcode.com/problems/minimum-size-subarray-sum/)  **Not done**
