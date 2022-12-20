@@ -20,9 +20,29 @@ public class MinimumSizeSubarraySum {
 
 
         return ans == Integer.MAX_VALUE ? 0 : ans ;
+
     }
 
-    public static void main(String args[]){
+    public int minSubArrayLen2(int target, int[] nums) {
+        // same as above
+
+        int ans = Integer.MAX_VALUE ;
+        int sum = 0 ;
+        int leftIndex = 0 ;
+        for(int rightIndex = 0 ; rightIndex < nums.length ; rightIndex++){
+            sum += nums[rightIndex];
+            while(sum >= target){
+                ans = Math.min(ans , rightIndex - leftIndex+1);
+                sum -= nums[leftIndex++];
+            }
+
+
+        }
+
+        return ans == Integer.MAX_VALUE ? 0 : ans;
+    }
+
+        public static void main(String args[]){
         int nums[] ;
         MinimumSizeSubarraySum minimumSizeSubarraySum = new MinimumSizeSubarraySum();
 
