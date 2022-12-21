@@ -70,7 +70,7 @@
 - [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit (1438)](monotonicqueue/LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.java)
 - [Jump Game VI (1696)](monotonicqueue/JumpGameVI.java)
 
-## Sliding Window
+### Sliding Window
 - [Longest Substring Without Repeating Characters (3)](slidingwindow/LongestSubstringWithoutRepeatingCharacters.java)
 - [Longest Substring with At Most Two Distinct Characters (159)](slidingwindow/LongestSubstringwithAtMostTwoDistinctCharacters.java)
 - [Longest Substring with At Most K Distinct Characters (340)](slidingwindow/LongestSubstringwithAtMostKDistinctCharacters.java)
@@ -83,6 +83,14 @@
 - [Minimum Size SubArray Sum (209)](slidingwindow/MinimumSizeSubarraySum.java)
 
 
+### Sorting
+- [Kth Largest Element in an Array (215)](sorting/KthLargestElementInAnArray.java)
+- [Sort List (148)](sorting/SortList.java)
+- [Inversion Count , not a leetcode ](https://www.geeksforgeeks.org/inversion-count-in-array-using-merge-sort/)
+- [Sort Colors (75)](sorting/SortColors.java)
+- [Sort Characters By Frequency (451)](sorting/SortCharactersByFrequency.java)
+- [Maximum Gap (164)] 
+- 
 ### Back tracking
 
 - [Permutations (46)](https://leetcode.com/problems/permutations/)
