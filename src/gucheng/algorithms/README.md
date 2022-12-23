@@ -98,6 +98,27 @@
 - [Generate Parentheses (22)](https://leetcode.com/problems/generate-parentheses/)
 
 
+### prefix sum
+- [ Subarray Sum Equals K (560)](prefixsum/SubarraySumEqualsK.java)
+- [ Product of Array Except Self (238)](prefixsum/ProductofArrayExceptSelf.java)
+- [Random Pick with Weight (528)](prefixsum/RandomPickwithWeight.java)
+- [Running Sum of 1d Array (1480)]
+- [Continuous Subarray Sum (523)]
+- [Find Pivot Index (724)]
+- [974]
+- [1314]
+- [1423]
+- [862]
+- [1712]
+- [862]
+- [1712]
+- [304]
+- [209]
+- [525]
+- [1588]
+- [1177]
+- [370]
+- [152]
 
 ## DP
 [ House Robber (198)](dp/HouseRobber.java)

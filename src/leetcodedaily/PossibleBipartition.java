@@ -6,7 +6,7 @@ import java.util.*;
 public class PossibleBipartition {
     public boolean possibleBipartition(int n, int[][] dislikes) {
 
-        Set<Integer>[]  sets = new HashSet<>[2];
+        Set<Integer>[]  sets = new HashSet[2];
 
         int[]  allocations = new int[n];
         for(int index = 0 ; index < n ; index++){
