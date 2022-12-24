@@ -89,7 +89,7 @@
 - [Inversion Count , not a leetcode ](https://www.geeksforgeeks.org/inversion-count-in-array-using-merge-sort/)
 - [Sort Colors (75)](sorting/SortColors.java)
 - [Sort Characters By Frequency (451)](sorting/SortCharactersByFrequency.java)
-- [Maximum Gap (164)] 
+- [Maximum Gap (164)](sorting/MaximumGap.java)
 - 
 ### Back tracking
 
@@ -102,11 +102,11 @@
 - [ Subarray Sum Equals K (560)](prefixsum/SubarraySumEqualsK.java)
 - [ Product of Array Except Self (238)](prefixsum/ProductofArrayExceptSelf.java)
 - [Random Pick with Weight (528)](prefixsum/RandomPickwithWeight.java)
-- [Running Sum of 1d Array (1480)]
-- [Continuous Subarray Sum (523)]
-- [Find Pivot Index (724)]
-- [974]
-- [1314]
+- [Running Sum of 1d Array (1480)](prefixsum/RunningSumof1dArray.java)
+- [Continuous Subarray Sum (523)](prefixsum/ContinuousSubarraySum.java)
+- [Find Pivot Index (724)](prefixsum/FindPivotIndex.java)
+- [Subarray Sums Divisible by K  (974)](prefixsum/SubarraySumsDivisiblebyK.java)
+- [ Matrix Block Sum (1314)]
 - [1423]
 - [862]
 - [1712]
@@ -119,6 +119,7 @@
 - [1177]
 - [370]
 - [152]
+- [1590]
 
 ## DP
 [ House Robber (198)](dp/HouseRobber.java)
