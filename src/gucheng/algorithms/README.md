@@ -107,14 +107,12 @@
 - [Find Pivot Index (724)](prefixsum/FindPivotIndex.java)
 - [Subarray Sums Divisible by K  (974)](prefixsum/SubarraySumsDivisiblebyK.java)
 - [ Matrix Block Sum (1314)]
-- [1423]
-- [862]
+- [Maximum Points You Can Obtain from Cards (1423)]
 - [1712]
 - [862]
-- [1712]
 - [304]
 - [209]
-- [525]
+- [ Contiguous Array (525)](prefixsum/ContiguousArray.java)
 - [1588]
 - [1177]
 - [370]
