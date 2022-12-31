@@ -106,11 +106,11 @@
 - [Continuous Subarray Sum (523)](prefixsum/ContinuousSubarraySum.java)
 - [Find Pivot Index (724)](prefixsum/FindPivotIndex.java)
 - [Subarray Sums Divisible by K  (974)](prefixsum/SubarraySumsDivisiblebyK.java)
-- [ Matrix Block Sum (1314)]
-- [Maximum Points You Can Obtain from Cards (1423)]
-- [1712]
-- [862]
-- [304]
+- [ Matrix Block Sum (1314)](prefixsum/MatrixBlockSum.java)
+- [Maximum Points You Can Obtain from Cards (1423)](prefixsum/MaximumPointsYouCanObtainfromCards.java)
+- [Ways to Split Array Into Three Subarrays (1712)]
+- [ Shortest Subarray with Sum at Least K (862)](prefixsum/ShortestSubarraywithSumatLeastK.java)
+- [Range Sum Query 2D - Immutable (304)](prefixsum/NumMatrix.java)
 - [209]
 - [ Contiguous Array (525)](prefixsum/ContiguousArray.java)
 - [1588]
