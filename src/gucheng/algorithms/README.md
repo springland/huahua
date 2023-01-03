@@ -111,10 +111,10 @@
 - [Ways to Split Array Into Three Subarrays (1712)]
 - [ Shortest Subarray with Sum at Least K (862)](prefixsum/ShortestSubarraywithSumatLeastK.java)
 - [Range Sum Query 2D - Immutable (304)](prefixsum/NumMatrix.java)
-- [209]
+- [Minimum Size Subarray Sum (209)](prefixsum/MinimumSizeSubarraySum.java)
 - [ Contiguous Array (525)](prefixsum/ContiguousArray.java)
-- [1588]
-- [1177]
+- [Sum of All Odd Length Subarrays (1588)](prefixsum/SumofAllOddLengthSubarrays.java)
+- [Can Make Palindrome from Substring (1177)]
 - [370]
 - [152]
 - [1590]
