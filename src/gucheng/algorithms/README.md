@@ -81,7 +81,7 @@
 - [Subarrays with K Different Integers (992)](slidingwindow/SubarrayswithKDifferentIntegers.java)
 - [Count Number of Nice Subarrays (1248)](slidingwindow/CountNumberofNiceSubarrays.java)
 - [Minimum Size SubArray Sum (209)](slidingwindow/MinimumSizeSubarraySum.java)
-
+- [ Sliding Window Maximum (239)]
 
 ### Sorting
 - [Kth Largest Element in an Array (215)](sorting/KthLargestElementInAnArray.java)
@@ -114,10 +114,17 @@
 - [Minimum Size Subarray Sum (209)](prefixsum/MinimumSizeSubarraySum.java)
 - [ Contiguous Array (525)](prefixsum/ContiguousArray.java)
 - [Sum of All Odd Length Subarrays (1588)](prefixsum/SumofAllOddLengthSubarrays.java)
-- [Can Make Palindrome from Substring (1177)]
-- [370]
-- [152]
-- [1590]
+- [Can Make Palindrome from Substring (1177)](prefixsum/CanMakePalindromefromSubstring.java)
+- [ Range Addition (370)](prefixsum/RangeAddition.java)
+- [Maximum Product Subarray (152)](prefixsum/MaximumProductSubarray.java)
+- [Make Sum Divisible by P (1590)]
+
+
+### Two pointers
+- [Valid Palindrome II (680)](twopointers/ValidPalindromeII.java)
+- [Valid Word Abbreviation (408)](twopointers/ValidWordAbbreviation.java)
+- [ 3 Sum (15)](twopointers/ThreeSum.java)
+- [ Meeting Rooms II (253)](twopointers/MeetingRoomsII.java)
 
 ## DP
 [ House Robber (198)](dp/HouseRobber.java)
