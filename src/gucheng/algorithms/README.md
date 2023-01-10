@@ -125,6 +125,8 @@
 - [Valid Word Abbreviation (408)](twopointers/ValidWordAbbreviation.java)
 - [ 3 Sum (15)](twopointers/ThreeSum.java)
 - [ Meeting Rooms II (253)](twopointers/MeetingRoomsII.java)
+- [Trapping Rain water(42)](twopointers/TrappingRainWater.java)
+- [Linked List Cycle(141)]
 
 ## DP
 [ House Robber (198)](dp/HouseRobber.java)
