@@ -126,8 +126,13 @@
 - [ 3 Sum (15)](twopointers/ThreeSum.java)
 - [ Meeting Rooms II (253)](twopointers/MeetingRoomsII.java)
 - [Trapping Rain water(42)](twopointers/TrappingRainWater.java)
-- [Linked List Cycle(141)]
+- [Linked List Cycle(141)](twopointers/LinkedListCycle.java)
+- [Linked List Cycle II (142)](twopointers/LinkedListCycleII.java)
+- [Longest Substring with At Most K Distinct Characters (340)](twopointers/LongestSubstringwithAtMostKDistinctCharacters.java)
+- [Super Egg Drop (887)]
 
+### Recurison
+-[ Binary Search (704)] 
 ## DP
 [ House Robber (198)](dp/HouseRobber.java)
 [ Climb Stairs (70)](dp/ClimbingStairs.java)
