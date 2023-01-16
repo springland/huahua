@@ -82,6 +82,7 @@
 - [Count Number of Nice Subarrays (1248)](slidingwindow/CountNumberofNiceSubarrays.java)
 - [Minimum Size SubArray Sum (209)](slidingwindow/MinimumSizeSubarraySum.java)
 - [ Sliding Window Maximum (239)]
+- [Count the Number of Good Subarrays (2537)  sliding window + monotonic queue]
 
 ### Sorting
 - [Kth Largest Element in an Array (215)](sorting/KthLargestElementInAnArray.java)
@@ -118,6 +119,7 @@
 - [ Range Addition (370)](prefixsum/RangeAddition.java)
 - [Maximum Product Subarray (152)](prefixsum/MaximumProductSubarray.java)
 - [Make Sum Divisible by P (1590)]
+- [Increment Submatrices by One (2536)]
 
 
 ### Two pointers
@@ -132,7 +134,14 @@
 - [Super Egg Drop (887)]
 
 ### Recurison
--[ Binary Search (704)] 
+-[ Binary Search (704)](recurison/BinarySearch.java)
+-[ Binary Tree Cameras (968)](recurison/BinaryTreeCameras.java)
+-[ Generate Parentheses (22)](recurison/GenerateParentheses.java)
+-[Kth Largest Element in an Array (215)](recurison/KthLargestElementinanArray.java)
+-[Concatenated Words  (472)](recurison/ConcatenatedWords.java)
+-[Decode Ways (91)](recurison/DecodeWays.java)
+-[ Pow(x, n) (50)](recurison/PowXN.java)
+-[ Sqrt(x) (69)]
 ## DP
 [ House Robber (198)](dp/HouseRobber.java)
 [ Climb Stairs (70)](dp/ClimbingStairs.java)
