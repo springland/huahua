@@ -141,7 +141,15 @@
 -[Concatenated Words  (472)](recurison/ConcatenatedWords.java)
 -[Decode Ways (91)](recurison/DecodeWays.java)
 -[ Pow(x, n) (50)](recurison/PowXN.java)
--[ Sqrt(x) (69)]
+-[ Sqrt(x) (69)](recurison/SqrtX.java)
+
+### Greedy
+-[Maximum Units in a truck (1710)](greedy/MaximumUnitsonaTruck.java)
+-[Container With Most Water (11)](greedy/ContainerWithMostWater.java)
+-[ Break a Palindrome (1328)]
+-[Jump Game (55)](greedy/JumpGame.java)
+-[Gas Station (134)](greedy/GasStation.java)
+
 ## DP
 [ House Robber (198)](dp/HouseRobber.java)
 [ Climb Stairs (70)](dp/ClimbingStairs.java)
