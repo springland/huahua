@@ -18,6 +18,8 @@
 -[ Decode Ways (91)](sequence/DecodeWays.java)
 -[ Word Break (139)](sequence/WordBreak.java)
 -[ Word Break II (140)](sequence/WordBreakII.java)
--[ Maximum Subarray (53)]
-
+-[ Maximum Subarray (53)](sequence/MaximumSubarray.java)
+-[ Max Production SubArray (152)]
+-[ Jump Game (55)](sequence/JumpGame.java)
+-[ Jump Game II (45)]
 ### matrix

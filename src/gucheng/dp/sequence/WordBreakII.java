@@ -51,7 +51,7 @@ public class WordBreakII {
 
 
     public List<String> iterative(String s , List<String> wordDict){
-        List<String>[] ans = new List<>[s.length()+1];
+        List<String>[] ans = new List[s.length()+1];
 
 
 
