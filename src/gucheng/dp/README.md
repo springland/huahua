@@ -13,13 +13,20 @@
 - [Stone Game VII (1690)]
 - [Stone Game VIII (1872)]
 - [Stone Game IX (2209)]
+
 ### sequence
--[ Climbing Stairs (70) Fibonacci Number (509)](sequence/ClimbingStairs.java)
--[ Decode Ways (91)](sequence/DecodeWays.java)
--[ Word Break (139)](sequence/WordBreak.java)
--[ Word Break II (140)](sequence/WordBreakII.java)
--[ Maximum Subarray (53)](sequence/MaximumSubarray.java)
--[ Max Production SubArray (152)]
--[ Jump Game (55)](sequence/JumpGame.java)
--[ Jump Game II (45)]
+- [ Climbing Stairs (70) Fibonacci Number (509)](sequence/ClimbingStairs.java)
+- [ Decode Ways (91)](sequence/DecodeWays.java)
+- [ Word Break (139)](sequence/WordBreak.java)
+- [ Word Break II (140)](sequence/WordBreakII.java)
+- [ Maximum Subarray (53)](sequence/MaximumSubarray.java)
+- [ Max Production SubArray (152)](sequence/MaxProductionSubArray.java)
+- [ Jump Game (55)](sequence/JumpGame.java)
+- [ Jump Game II (45)](sequence/JumpGameII.java)
+- [ House Robber (198)](sequence/HouseRobber.java)
+- [ Best Time to Buy and Sell Stock (121)](sequence/BestTimeToBuyAndSellStock.java)
+- [Longest Increasing Subsequence (300)]
+- [Minimum Operations to Make a Subsequence (1713)]
+- [ Longest Palindromic Substring (5)]
+- 
 ### matrix
