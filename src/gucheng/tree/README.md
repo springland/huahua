@@ -10,5 +10,5 @@
 ##  tree structure transform
 - [Serialize and Deserialize Binary Tree (297)](transform/SerializeandDeserializeBinaryTree.java)
 - [Serialize and Deserialize N-ary Tree (427)](transform/SerializeandDeserializeNaryTree.java)
-- [Serialize and Deserialize BST (449)]
-- [ Construct Binary Search Tree from Preorder Traversal (1008)]
+- [Serialize and Deserialize BST (449)](transform/SerializeandDeserializeBST.java)
+- [ Construct Binary Search Tree from Preorder Traversal (1008)](transform/ConstructBinarySearchTreefromPreorderTraversal.java)
