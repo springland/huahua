@@ -28,6 +28,8 @@ public class ConstructBinaryTreefromPreorderandPostorderTraversal {
         root = new TreeNode(preorder[preOrderBeginIndex]);
 
 
+        int leftChildrenSize = 0 ;
+        int rightChildrenSize = 0 ;
         if(preorder[postOrderBeginIndex+1] == postorder[postOrderEndIndex-1]){
 
             /* It only has one child
@@ -41,11 +43,31 @@ public class ConstructBinaryTreefromPreorderandPostorderTraversal {
             both of them have preorder [ 1 2 4 5] and postorder [ 4 5 2 1]
 
             */
+            leftChildrenSize = postOrderEndIndex - postOrderBeginIndex;
+            // leave right to be 0 ;
         }
         else{
+            // the postorder-1 is the right child
 
+            int rightChildPreOrderIndex  ;
+            for(rightChildPreOrderIndex = preOrderBeginIndex ; rightChildPreOrderIndex <= preOrderEndIndex ; rightChildPreOrderIndex++){
+                if(preorder[rightChildPreOrderIndex] == postorder[postOrderEndIndex-1]) break;
+            }
+
+            rightChildrenSize = preOrderEndIndex - rightChildPreOrderIndex+1 ;
+            leftChildrenSize = rightChildPreOrderIndex - (preOrderBeginIndex+1);
         }
 
+        if(leftChildrenSize > 0){
+            root.left =  buildTree(preorder , preOrderBeginIndex+1 , preOrderBeginIndex+ leftChildrenSize ,
+                    postorder , postOrderBeginIndex  , postOrderBeginIndex + leftChildrenSize -1 );
+        }
+
+        if(rightChildrenSize > 0 ){
+            root.right =  buildTree(preorder , preOrderBeginIndex+1 + leftChildrenSize , preOrderEndIndex ,
+                    postorder , postOrderEndIndex - rightChildrenSize  , postOrderEndIndex-1 );
+
+        }
         return root ;
     }
 }

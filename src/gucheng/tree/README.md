@@ -14,5 +14,5 @@
 - [ Construct Binary Search Tree from Preorder Traversal (1008)](transform/ConstructBinarySearchTreefromPreorderTraversal.java)
 - [Construct Binary Tree from Preorder and Inorder Traversal (105)](transform/ConstructBinaryTreefromPreorderandInorderTraversal.java)
 - [Construct Binary Tree from Inorder and Postorder Traversal (106)](transform/ConstructBinaryTreefromInorderandPostorderTraversal.java)
-- [Construct Binary Tree from Preorder and Postorder Traversal (889)]
+- [Construct Binary Tree from Preorder and Postorder Traversal (889)](transform/ConstructBinaryTreefromPreorderandPostorderTraversal.java)
 - [Convert Binary Search Tree to Sorted Doubly Linked List (426)](transform/ConvertBinarySearchTreetoSortedDoublyLinkedList.java)
