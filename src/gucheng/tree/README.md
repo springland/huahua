@@ -12,7 +12,7 @@
 - [Serialize and Deserialize N-ary Tree (427)](transform/SerializeandDeserializeNaryTree.java)
 - [Serialize and Deserialize BST (449)](transform/SerializeandDeserializeBST.java)
 - [ Construct Binary Search Tree from Preorder Traversal (1008)](transform/ConstructBinarySearchTreefromPreorderTraversal.java)
-- [Construct Binary Tree from Preorder and Inorder Traversal (105)]
-- [Construct Binary Tree from Inorder and Postorder Traversal (106)]
+- [Construct Binary Tree from Preorder and Inorder Traversal (105)](transform/ConstructBinaryTreefromPreorderandInorderTraversal.java)
+- [Construct Binary Tree from Inorder and Postorder Traversal (106)](transform/ConstructBinaryTreefromInorderandPostorderTraversal.java)
 - [Construct Binary Tree from Preorder and Postorder Traversal (889)]
 - [Convert Binary Search Tree to Sorted Doubly Linked List (426)](transform/ConvertBinarySearchTreetoSortedDoublyLinkedList.java)
