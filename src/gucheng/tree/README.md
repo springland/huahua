@@ -25,5 +25,5 @@
 -[Convert Binary Search Tree to Sorted Doubly Linked List (426)](bst/ConvertBinarySearchTreetoSortedDoublyLinkedList.java)
 -[ Recover Binary Search Tree (99)](bst/RecoverBinarySearchTree.java)
 -[ Convert Sorted Array to Binary Search Tree (108)](bst/ConvertSortedArrayToBinarySearchTree.java)
--[ Unique Binary Search Trees (96)]
-- [Unique Binary Search Trees II (95)]
+-[ Unique Binary Search Trees (96)](bst/UniqueBinarySearchTrees.java)
+- [Unique Binary Search Trees II (95)](bst/UniqueBinarySearchTreesII.java)
