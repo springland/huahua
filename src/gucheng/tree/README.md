@@ -29,8 +29,8 @@
 - [Unique Binary Search Trees II (95)](bst/UniqueBinarySearchTreesII.java)
 
 ## LCA
-- [Lowest Common Ancestor of a Binary Search Tree (235)]
-- [Lowest Common Ancestor of a Binary Tree (236)]
+- [Lowest Common Ancestor of a Binary Search Tree (235)](lca/LowestCommonAncestorofaBinarySearchTree.java)
+- [Lowest Common Ancestor of a Binary Tree (236)](lca/LowestCommonAncestorofaBinaryTree.java)
 - [Lowest Common Ancestor of a Binary Tree II (1644)]
 - [Lowest Common Ancestor of a Binary Tree III (1650)]
 - [Lowest Common Ancestor of a Binary Tree IV (1676)]
