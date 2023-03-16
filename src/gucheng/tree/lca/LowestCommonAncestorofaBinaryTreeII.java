@@ -1,11 +1,9 @@
 package gucheng.tree.lca;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
-// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
-public class LowestCommonAncestorofaBinaryTree {
+// https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/
+public class LowestCommonAncestorofaBinaryTreeII {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
         Stack<TreeNode> pStack = new Stack<>();
@@ -55,6 +53,4 @@ public class LowestCommonAncestorofaBinaryTree {
 
         stack.pop();
         return false ;
-    }
-
-}
+    }}
