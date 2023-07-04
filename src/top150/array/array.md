@@ -1,0 +1,5 @@
+[merge sorted array](MergeSortedArray.java)
+[Remove Element](RemoveElement.java)
+[Remove Duplicates from Sorted Array](RemoveDuplicatesfromSortedArray.java)
+[Remove Duplicates from Sorted Array II](RemoveDuplicatesFromSortedArrayII.java)
+[Majority Element](MajorityElement.java)
