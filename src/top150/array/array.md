@@ -9,3 +9,6 @@
 [Jump Game](JumpGame.java)
 [ Jump Game II](JumpGameII.java)
 [H-Index](HIndex.java)
+[Insert Delete GetRandom O(1)](RandomizedSet.java) RandomSizeSetOfficial.java
+[Product of Array Except Self](ProductofArrayExceptSelf.java)
+[Gas Station](GasStation.java)
