@@ -13,3 +13,8 @@
 [Product of Array Except Self](ProductofArrayExceptSelf.java)
 [Gas Station](GasStation.java)
 [Roman to Integer](RomanToInteger.java)
+[Candy](Candy.java)
+[Trapping Rain Water](TrapRainWater.java)
+[Integer to Roman](IntegerToRoman.java)
+[Length of Last Word](LengthOfLastWord.java)
+[Longest Common Prefix](LongestCommonPrefix.java)
