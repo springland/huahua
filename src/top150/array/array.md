@@ -18,4 +18,7 @@
 [Integer to Roman](IntegerToRoman.java)
 [Length of Last Word](LengthOfLastWord.java)
 [Longest Common Prefix](LongestCommonPrefix.java)
-[Reverse Words in a String]
+[Reverse Words in a String](ReverseWordsinaString.java)
+[Zigzag Conversion](ZigzagConversion.java)
+[Find the Index of the First Occurrence in a String](FindtheIndexoftheFirstOccurrenceinaString.java)
+[Text Justification](TextJustification.java)
