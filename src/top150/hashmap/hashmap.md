@@ -6,3 +6,4 @@
 [Two Sum](TwoSum.java)
 [Happy Number](HappyNumber.java)
 [Contains Duplicate II](ContainsDuplicateII.java)
+[Longest Consecutive Sequence]
